@@ -1,4 +1,4 @@
-let tableau = [10,45,89,2,18,32];
+
 
 function TriBull(tab){
     for(let i = 0; i < tab.length - 1; i++){
@@ -12,6 +12,7 @@ function TriBull(tab){
     }
     return tab;
 }
+let tableau = [10,45,89,2,18,32]; 
 
 console.log("le tableau avant le trie", tableau);
 
