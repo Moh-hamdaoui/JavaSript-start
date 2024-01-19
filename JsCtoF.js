@@ -16,7 +16,7 @@ rl.question("Donner le type de température que vous avez (celsius/fahrenheit): 
 
                 if (!isNaN(valueC)) {
                     let valueF = (9/5 * valueC) + 32;
-                    console.log(`${valueC} °C équivaut à ${valueF} °F`);
+                    console.log(`${valueC} °C équivant à ${valueF} °F`);
                 } else {
                     console.log("Erreur de saisie, veuillez saisir un nombre.");
                 }
@@ -32,7 +32,7 @@ rl.question("Donner le type de température que vous avez (celsius/fahrenheit): 
 
                 if (!isNaN(valueF)) {
                     let valueC = (valueF - 32) * 5/9;
-                    console.log(`${valueF} °F équivaut à ${valueC} °C`);
+                    console.log(`${valueF} °F équivant à ${valueC} °C`);
                 } else {
                     console.log("Erreur de saisie, veuillez saisir un nombre.");
                 }
@@ -46,4 +46,4 @@ rl.question("Donner le type de température que vous avez (celsius/fahrenheit): 
             rl.close();
     }
 });
->>>>>>> 940d814076209a0eccda14ea12e44cc69ed75669
+
