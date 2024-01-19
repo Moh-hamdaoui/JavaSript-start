@@ -46,3 +46,4 @@ rl.question("Donner le type de température que vous avez (celsius/fahrenheit): 
             rl.close();
     }
 });
+>>>>>>> 940d814076209a0eccda14ea12e44cc69ed75669
